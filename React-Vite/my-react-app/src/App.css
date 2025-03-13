@@ -1,0 +1,40 @@
+
+
+
+.cart {
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.cart-left {
+  padding: 8px;
+  background-color: rgb(241, 239, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.cart-right {
+  padding: 12px;
+  background-color: white;
+  color: black;
+  width: 40rem;
+}
+
+.cart>.cart-left>img {
+  border-radius: 20px;
+  width: 70%;
+
+}
+
+button {
+  background-color: rgb(247, 210, 23);
+  color: black;
+  border: 0px;
+  padding: 10px;
+  border-radius: 22px;  
+  border:1px solid rgb(163, 163, 163);
+}
